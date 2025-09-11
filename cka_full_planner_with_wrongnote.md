@@ -1,10 +1,6 @@
 # 📅 CKA 시험 준비 종합 플래너 
 ---
-
-## ✅ 일주일 집중 플래너 (D-7)
-
 > 하루 3시간 학습 기준 (1h 실습, 1h 문제풀이, 1h 오답정리)
-
 ### Day 1 (Cluster & CRI-dockerd)
 - [V] CRI-dockerd 설치 및 상태 확인
 - [V] 커널 네트워크 설정 (`net.bridge.bridge-nf-call-iptables=1`, `net.ip_forward=1`)
@@ -17,10 +13,10 @@
 - [ ] CRD 생성 및 확인
 
 ### Day 3 (Gateway API, Ingress, Patch)
-- [v] Gateway API 설치 및 HTTPRoute 실습
-- [v] Ingress 생성 및 curl 테스트
-- [ ] `kubectl patch`로 Deployment 이미지 교체 및 replica 수정
-- [ ] jsonpath 손에 익도록 연습
+- [V] Gateway API 설치 및 HTTPRoute 실습
+- [V] Ingress 생성 및 curl 테스트
+- [V] `kubectl patch`로 Deployment 이미지 교체 및 replica 수정
+- [V]  jsonpath 손에 익도록 연습
 
 ### Day 4 (HPA & Troubleshooting)
 - [V] HorizontalPodAutoscaler(HPA) 생성 및 부하 테스트
@@ -34,8 +30,8 @@
 - [V] CNI, Ingress, HTTP Route, Gateway
 - [V] PV, PVC, Taint
 - [ ] TLS, RBAC
-- [ ] JSONpath
-- [ ] cluster update, etcd backup/restore 1회 연습
+- [V] JSONpath
+- [V] cluster update, etcd backup/restore 1회 연습
 - [ ] PSA, Security Context
 - [V] 모의고사 1번 맛보기 
 
@@ -51,19 +47,6 @@
 - [ ] 모의고사 2회독 및 오답노트
 - [ ] 모의고사 3회독 및 오답노트
 
-## 📝 오답 노트 템플릿
-
-### 문제 번호 / 주제
-예: "etcd 백업 복구"
-
-### ❌ 내가 틀린 이유
-- 잘못 입력한 명령어:  
-- 놓친 개념:  
-
-### ✅ 정답 & 올바른 접근 방법
-- 올바른 명령어 / 설정:  
-- 문제 해결 절차 요약:  
-
 ### 💡 추가 메모 (시험 팁)
 - 유사 문제에서 주의할 점:  
 - 기억해야 할 단축 명령어/옵션:  
@@ -71,12 +54,12 @@
 ---
 
 ## 📊 최종 체크리스트 (시험 직전)
-- [v] etcd 백업/복구 가능
-- [v] kubeadm upgrade 가능
-- [v] Helm 설치/실습 가능
+- [V] etcd 백업/복구 가능
+- [V] kubeadm upgrade 가능
+- [V] Helm 설치/실습 가능
 - [V] Gateway API & Ingress 생성 가능
 - [V] HPA 구성 및 확인 가능
-- [ ] `kubectl patch` 활용 가능
+- [V] `kubectl patch` 활용 가능
 - [ ] Troubleshooting (kubelet, CNI, TLS 등) 빠르게 해결 가능
 - [ ] Killercoda 환경에서 3회 모의고사 완료
 
